@@ -30,6 +30,7 @@
 				width: 30px;
 				height: 30px;
 				border-radius: 50%;
+				object-fit: cover;
 				transition: 0.3s;
 				&:hover{
 					transform: scale(1.2);
