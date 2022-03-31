@@ -1,0 +1,77 @@
+.container{
+	max-width: 1200px;
+	padding: 0 2rem;
+	margin: auto;
+	overflow: hidden;
+}
+%btn-shared{
+	// font-size: 0.9rem;
+	margin-right: .5rem;
+	font-weight: 600;
+	display: inline-block;
+	padding: 0.5rem 1rem;
+	cursor: pointer;
+	border-radius: 35px
+
+}
+.btn {
+	&-primary{
+		@extend %btn-shared;
+		background: $primary-color;
+	}
+	&-light{
+		@extend %btn-shared;
+		border: 2px $primary-color solid;
+		
+	}
+	
+}
+
+
+.bg{
+	&-light{
+		background: $light-color;
+	}
+	
+}
+
+
+.py{
+	&-1{
+		padding: 1rem 0;
+	}
+	&-2{
+		padding: 2rem 0;
+	}
+	&-3{
+		padding: 3rem 0;
+	}
+	&-4{
+		padding: 4rem 0;
+	}
+	&-5{
+		padding: 4rem 0;
+	}
+}
+
+.section-title{
+	text-align: center;
+	margin-bottom: 1rem;
+}
+.text-center{
+	text-align: center;
+}
+.my{
+	&-1{
+		margin: .5rem 0;
+	}
+	&-2{
+		margin: 2rem 0;
+	}
+	&-3{
+		margin: 3rem 0;
+	}
+	&-4{
+		margin: 4rem 0;
+	}
+}

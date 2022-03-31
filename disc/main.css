@@ -1,0 +1,370 @@
+.container {
+  max-width: 1200px;
+  padding: 0 2rem;
+  margin: auto;
+  overflow: hidden;
+}
+
+.btn-light, .btn-primary {
+  margin-right: 0.5rem;
+  font-weight: 600;
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  border-radius: 35px;
+}
+
+.btn-primary {
+  background: #f8c10a;
+}
+.btn-light {
+  border: 2px #f8c10a solid;
+}
+
+.bg-light {
+  background: #f4f4f4;
+}
+
+.py-1 {
+  padding: 1rem 0;
+}
+.py-2 {
+  padding: 2rem 0;
+}
+.py-3 {
+  padding: 3rem 0;
+}
+.py-4 {
+  padding: 4rem 0;
+}
+.py-5 {
+  padding: 4rem 0;
+}
+
+.section-title {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.my-1 {
+  margin: 0.5rem 0;
+}
+.my-2 {
+  margin: 2rem 0;
+}
+.my-3 {
+  margin: 3rem 0;
+}
+.my-4 {
+  margin: 4rem 0;
+}
+
+#about-a .food-items {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+#about-a .food-items .content {
+  max-width: 30rem;
+}
+#about-a .food-items .content h1 {
+  font-size: 2rem;
+}
+#about-a .food-items .content p {
+  padding: 1rem 0;
+}
+#about-a .food-items .content img {
+  width: 100%;
+}
+#about-a .custom-box {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.2rem;
+}
+#about-a .custom-box .box {
+  background: #e6bcbc;
+  padding: 0.8rem;
+}
+#about-a .custom-box img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  transition: 0.3s;
+}
+#about-a .custom-box img:hover {
+  transform: scale(1.2);
+}
+#about-b .cheps {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+}
+#about-b .cheps .box {
+  margin-top: 1rem;
+}
+#about-b .cheps img {
+  width: 100%;
+  height: 20rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+  padding: 0.5rem 0;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Dosis", sans-serif;
+  line-height: 1.4;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+ul {
+  list-style: none;
+}
+
+header .main-nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 1.5rem 0;
+}
+header .main-nav .logo {
+  margin-right: auto;
+}
+header .main-nav .logo .fas {
+  color: #f8c10a;
+  font-size: 2.3rem;
+}
+header .main-nav .logo h3 {
+  font-size: 1.7rem;
+  font-style: italic;
+}
+header .main-nav nav a {
+  padding: 0.8rem 1rem;
+  font-weight: 600;
+  color: #333;
+}
+header .main-nav nav a:hover {
+  text-decoration: underline;
+}
+header .main-nav .icon .fas {
+  background: #eeecec;
+  margin-right: 1rem;
+  font-size: 0.75rem;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  border-radius: 50%;
+  border: 2px solid #ccc;
+}
+header .main-nav ul {
+  display: flex;
+  align-items: center;
+  padding: 0 2rem;
+}
+header .btn-primary:hover {
+  opacity: 0.8;
+}
+
+#home-a .Served {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#home-a .Served .content {
+  max-width: 30rem;
+}
+#home-a .Served h3 {
+  font-size: 2rem;
+}
+#home-a .Served h3 .far {
+  color: #f8c10a;
+}
+#home-a .Served p {
+  padding: 1rem 0;
+}
+#home-a .Served .image {
+  position: relative;
+}
+#home-a .Served .image img {
+  width: 100%;
+}
+#home-a .Served ul {
+  position: absolute;
+  top: 30%;
+  right: 0;
+  margin-left: 5rem;
+}
+#home-a .Served ul .list {
+  line-height: 2.5;
+}
+#home-a .Served ul .list .fas {
+  background: coral;
+}
+#home-a .Served ul .list .fas {
+  margin-right: 0.5rem;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  border-radius: 50%;
+  border: 1px solid #ccc;
+}
+#home-a .Served .btn {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+}
+#home-a .Served .search-box {
+  width: 130px;
+  height: 40px;
+  border: 2px solid #f8c10a;
+  position: relative;
+  border-radius: 50px;
+}
+#home-a .Served .search-box input {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  border: none;
+  outline: none;
+  background: transparent;
+  padding: 0 2rem;
+  font-size: 1rem;
+  font-weight: 500;
+}
+#home-a .Served .search-box label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 40px;
+  height: 100%;
+}
+#home-a .Served .search-box label .fas {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#home-b .service {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+}
+#home-b .service p {
+  padding: 1rem 0;
+}
+#home-b .service .content {
+  width: 40rem;
+}
+#home-b .service img {
+  width: 70%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+#home-b .service .column {
+  line-height: 2;
+  display: flex;
+  gap: 2rem;
+}
+#home-b .service .column .fas {
+  margin-right: 1rem;
+  color: #f8c10a;
+}
+#home-b .service .btn-primary {
+  margin-top: 1rem;
+}
+#home-c .items {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+  gap: 1.2rem;
+}
+#home-c .items .section-title {
+  margin: 1rem 0;
+}
+#home-c .items img {
+  width: 100%;
+  height: 15rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+  padding: 1rem 0;
+  border-radius: 0.5rem;
+  display: block;
+}
+#home-c .items .fas {
+  color: #f8c10a;
+  padding: 0.4rem 0;
+}
+#home-c .items .btn {
+  margin-right: 1rem;
+}
+#home-c .items .btn-light:hover {
+  background: #f8c10a;
+}
+#home-c .items ul {
+  margin: 1rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#main-footer .footer {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 2rem;
+}
+#main-footer .footer input {
+  width: 80%;
+  padding: 0.5rem 0;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #ccc;
+}
+#main-footer .footer div .fas {
+  font-size: 0.9rem;
+  margin-left: 0.2rem;
+  background: #f8c10a;
+  width: 20px;
+  width: 20px;
+  line-height: 20px;
+  border-radius: 50%;
+  text-align: center;
+}
+#main-footer .footer .icons .fab {
+  font-size: 0.8rem;
+  margin: 0.3rem;
+  width: 20px;
+  width: 20px;
+  border: 0.5px solid #333;
+  border-radius: 50%;
+  line-height: 20px;
+  text-align: center;
+}
+#main-footer .footer h3 {
+  font-size: 2rem;
+}
+#main-footer .footer .footer .icons .fab {
+  margin-left: 0.5rem;
+  padding: 0.8rem 0;
+  font-size: 1.4rem;
+  color: #085c5c;
+}
+#main-footer .footer li {
+  list-style: none;
+  line-height: 2;
+}/*# sourceMappingURL=main.css.map */
